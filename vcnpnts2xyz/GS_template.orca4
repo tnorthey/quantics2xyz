@@ -1,0 +1,17 @@
+! B3LYP def2-SVP def2/J def2-SVP/C TightSCF SlowConv SCFConv7
+! Normalprint
+! nofinalgrid
+
+%pal nprocs 8
+     end
+
+%maxcore 5024
+
+%tddft OrbWin[0] = 0,0,-1,-1
+       NRoots 75 
+       MaxDim 375
+       doquad true
+       end
+
+* xyzfile 1 1 file.xyz
+

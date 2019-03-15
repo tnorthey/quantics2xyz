@@ -1,0 +1,11 @@
+file0 = S0freq.log
+fileout = tmp
+nmodes = 165
+formout = xyz
+go_none
+define
+8 A 
+21 B 
+end-define
+
+end-input
